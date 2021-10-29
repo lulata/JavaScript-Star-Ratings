@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Rating app</title>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="form-group">
+      <select class="form-control custom-select" id="product-select">
+        <option value="0" disabled selected>Select Product</option>
+        <option value="sony">Sony 4K TV</option>
+        <option value="samsung">Samsung 4K TV</option>
+        <option value="lg">LG 4K TV</option>
+        <option value="phillips">Phillips 4K TV</option>
+        <option value="panasonic">Panasonic 4K TV</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <input type="number" class="form-control" step="0.1" max="5"
+      id="ratting-control" placeholder="Rate 1-5" disabled>
+    </div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>4k Television</th>
+          <th>Ratting</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="sony">
+          <td>Sony 4k TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+
+        <tr class="samsung">
+          <td>Samsung 4k TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+
+        <tr class="lg">
+          <td>LG 4k TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+
+        <tr class="phillips">
+          <td>Phillips 4k TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+
+        <tr class="panasonic">
+          <td>Panasonic 4k TV</td>
+          <td>
+            <div class="stars-outer">
+              <div class="stars-inner"></div>
+            </div>
+            <span class="number-rating"></span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+<script src="main.js">
+
+</script>
+</body>
+</html>
